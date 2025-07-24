@@ -1,69 +1,103 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f8fb;
-  color: #333;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #e6f2e6, #c9e4c5);
+  color: #2b3a2e;
+  line-height: 1.6;
 }
 
 header {
-  background: #007acc;
-  color: white;
-  padding: 20px;
+  background-color: #2b3a2e;
+  color: #dbe9d8;
+  padding: 25px 20px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(43, 58, 46, 0.3);
 }
 
 header h1 {
   margin: 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-header h2, header p {
-  margin: 5px 0;
+header h2 {
+  margin: 5px 0 0 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #a9bba9;
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav a {
-  color: white;
-  margin: 0 10px;
+  color: #dbe9d8;
+  margin: 0 14px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: border-color 0.3s ease;
 }
 
-nav a:hover {
-  text-decoration: underline;
+nav a:hover,
+nav a:focus {
+  border-color: #94b49f;
+  outline: none;
 }
 
 main {
-  max-width: 800px;
+  max-width: 720px;
   margin: 40px auto;
-  padding: 0 20px;
+  background: #ffffffcc;
+  padding: 35px 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 18px rgba(43, 58, 46, 0.15);
 }
 
 .profile-pic {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #007acc;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto 30px auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid #94b49f;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.home p {
+p {
+  font-size: 1.15rem;
+  color: #375237;
   text-align: center;
-  font-size: 1.1em;
 }
 
 .links {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .links a {
-  margin: 0 10px;
+  display: inline-block;
+  margin: 0 14px;
   text-decoration: none;
-  color: #007acc;
-  font-weight: bold;
+  font-weight: 600;
+  color: #375237;
+  border: 2px solid #375237;
+  padding: 8px 18px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+}
+
+.links a:hover,
+.links a:focus {
+  background-color: #375237;
+  color: #e6f2e6;
+  outline: none;
 }
