@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   color: #2b3a2e;
   
-  background-image: url('sfondo.png'); /* ← nome esatto del file */
+  background-image: url('sfondo.jpg'); /* ← nome esatto del file */
   background-size: cover;              /* ← la fa coprire tutta */
   background-repeat: no-repeat;        /* ← non si ripete */
   background-position: center center;  /* ← centrata */
