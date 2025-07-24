@@ -11,30 +11,24 @@ body {
 }
 
 header {
-  background-color: #2b3a2e;
-  color: #dbe9d8;
-  padding: 25px 20px;
+  position: relative;
+  color: white;
+  padding: 60px 20px 30px 20px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(43, 58, 46, 0.3);
+  background-image: url('foto.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(43, 58, 46, 0.6); /* sovrappone un filtro scuro */
+  border-radius: 0 0 20px 20px;
 }
-
-header h1 {
-  margin: 0;
-  font-size: 2.8rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+header h1, header h2, header p {
+  position: relative;
+  z-index: 2;
 }
-
-header h2 {
-  margin: 5px 0 0 0;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1.2rem;
-  color: #a9bba9;
-}
-
 nav {
+  position: relative;
+  z-index: 2;
   margin-top: 15px;
 }
 
