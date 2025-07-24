@@ -54,8 +54,8 @@ nav a:focus {
 }
 
 .side-pic {
-  width: 150px;
-  height: auto;
+  width: auto;
+  height: 50px;
   object-fit: cover;
   border: 1px solid black;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
