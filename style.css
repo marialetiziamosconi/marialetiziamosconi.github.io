@@ -129,39 +129,3 @@ p {
   color: #e6f2e6;
   outline: none;
 }
-
-.pubblicazioni {
-  max-width: 720px;
-  margin: 0 auto 40px auto;
-  padding-left: 20px;
-  color: #375237;
-  font-size: 1.1rem;
-}
-
-.pubblicazioni li {
-  margin-bottom: 1.5em;
-}
-
-.pubblicazioni .autori strong {
-  font-weight: 700;
-}
-
-.pubblicazioni .titolo {
-  display: block;
-  margin: 0.3em 0 0.6em 0;
-  font-style: italic; /* se vuoi il titolo in corsivo */
-}
-
-.pubblicazioni .links a {
-  color: #375237;
-  text-decoration: none;
-  margin-right: 12px;
-  font-weight: 600;
-}
-
-.pubblicazioni .links a:hover,
-.pubblicazioni .links a:focus {
-  text-decoration: underline;
-  outline: none;
-}
-
