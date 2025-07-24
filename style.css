@@ -47,25 +47,49 @@ nav a:focus {
   outline: none;
 }
 
-main {
-  max-width: 720px;
-  margin: 40px auto;
-  background: #ffffffcc;
-  padding: 35px 30px;
-  border-radius: 18px;
-  box-shadow: 0 8px 18px rgba(43, 58, 46, 0.15);
+.bio-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.profile-pic {
-  display: block;
-  margin: 0 auto 30px auto;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 5px solid #94b49f;
+.side-pic {
+  width: 150px;
+  height: auto;
   object-fit: cover;
+  border: 1px solid black;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+.bio-text p {
+  font-size: 1.15rem;
+  color: #375237;
+  text-align: left;
+  margin: 0;
+}
+
+
+.bio-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.side-pic {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid black;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bio-text p {
+  font-size: 1.15rem;
+  color: #375237;
+  text-align: left;
+  margin: 0;
+}
+
 
 p {
   font-size: 1.15rem;
