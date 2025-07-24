@@ -3,12 +3,14 @@ body {
   font-family: 'Georgia', serif;
   line-height: 1.6;
   color: #2b3a2e;
-  background-color: #348a83;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-
-  background-size: 40px 40px;
-  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+  
+  background-image: url('sfondo.png'); /* ← nome esatto del file */
+  background-size: cover;              /* ← la fa coprire tutta */
+  background-repeat: no-repeat;        /* ← non si ripete */
+  background-position: center center;  /* ← centrata */
+  background-attachment: fixed;        /* ← resta fissa durante lo scroll */
 }
+
 
 
 header {
