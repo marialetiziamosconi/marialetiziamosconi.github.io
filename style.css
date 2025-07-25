@@ -81,8 +81,10 @@ main {
 .intro-text h2 {
   margin: 0;
   text-align: right;
-  color: #375237;
+  /*  color: #375237; */
+  color: white;
   line-height: 1.3;
+  font-size: 1.4rem; 
 }
 
 .logo-affiancato {
