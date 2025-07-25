@@ -75,18 +75,19 @@ main {
   justify-content: space-between;
   gap: 1em;
   margin-bottom: 2em;
+  flex-wrap: nowrap;
 }
 
 .intro-text h1,
 .intro-text h2 {
   margin: 0;
-  text-align: left;
+  text-align: right;
   color: #375237;
   line-height: 1.3;
 }
 
 .logo-affiancato {
-  height: 3.5em; /* regola a seconda della proporzione */
+  height: 6em; /* regola a seconda della proporzione */
   object-fit: contain;
 }
 
