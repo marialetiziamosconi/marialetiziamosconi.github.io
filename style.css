@@ -76,17 +76,17 @@ main {
   justify-content: space-between;
   gap: 0em;
   margin-bottom:1em;
-  padding: 0 0 1em 2em; 
+  padding: 0; 
 }
 
 .intro-flex {
   display: flex;
   align-items: right;       /* centra verticalmente testo e logo */
-  justify-content: space-between; /* distribuisce lo spazio */
+  /* justify-content: space-between; /* distribuisce lo spazio */
   gap: 1em;                  /* distanza orizzontale tra testo e logo */
 }
 
-.intro-text h2 {
+.intro-text h1 {
   margin: 0;
   text-align: right;
   /*  color: #375237; */
@@ -95,7 +95,8 @@ main {
   font-size: 1.2rem; 
 }
 .intro-text h2 {
-  margin: 0;
+  margin-right: 0;
+  margin-left: 10em;
   text-align: right;
   /*  color: #375237; */
   color: white;
@@ -103,13 +104,11 @@ main {
   font-size: 1.2rem; 
 }
 
-
 .logo-affiancato {
   height: 6em; /* regola a seconda della proporzione */
   object-fit: contain;
    margin-left: 0em;
-  margin-right: 0em;
-    align-items: right; 
+   margin-right: 0em;
 }
 
 .bio-content {
@@ -130,17 +129,17 @@ main {
 }
 
 .bio-text h1 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: white;
   text-align: left;
-  margin: 0 0 1em;;
+  margin: 0 0 1em 0em;
 }
 
 .bio-text h2 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: white;
   text-align: left;
-  margin: 1em 0 0;;
+  margin: 1em 0 0 0;
 }
 
 /* Stile paragrafo generico centrato (puoi mantenerlo o rimuoverlo se crea conflitti) */
