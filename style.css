@@ -86,21 +86,21 @@ main {
   gap: 1em;                  /* distanza orizzontale tra testo e logo */
 }
 
-.intro-text h1 {
+.intro-text h2 {
   margin: 0;
   text-align: right;
   /*  color: #375237; */
   color: #375237;
-  line-height: 1.3;
+  line-height: 1;
   font-size: 1.2rem; 
 }
-.intro-text h2 {
+.intro-text h1 {
   margin-right: 0;
-  margin-left: 10em;
+  margin-left: 12em;
   text-align: right;
   /*  color: #375237; */
   color: white;
-  line-height: 1.3;
+  line-height: 1;
   font-size: 1.2rem; 
 }
 
