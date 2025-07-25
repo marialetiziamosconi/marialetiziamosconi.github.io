@@ -77,6 +77,13 @@ main {
   margin-bottom: 2em;
 }
 
+.intro-flex {
+  display: flex;
+  align-items: center;       /* centra verticalmente testo e logo */
+  justify-content: space-between; /* distribuisce lo spazio */
+  gap: 1em;                  /* distanza orizzontale tra testo e logo */
+}
+
 .intro-text h1,
 .intro-text h2 {
   margin: 0;
