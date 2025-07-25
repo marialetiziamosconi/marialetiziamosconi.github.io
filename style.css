@@ -129,3 +129,39 @@ p {
   color: #e6f2e6;
   outline: none;
 }
+
+.contacts {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.contacts li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #375237;
+}
+
+.contacts i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #375237;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #375237;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+  object-fit: contain;
+}
