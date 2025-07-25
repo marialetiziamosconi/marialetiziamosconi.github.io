@@ -88,7 +88,7 @@ main {
 
 .intro-text h2 {
   margin: 0;
-  margin-left: 15em;
+  margin-left: 13em;
   text-align: right;
   /*  color: #375237; */
   color: #375237;
@@ -97,11 +97,11 @@ main {
 }
 .intro-text h1 {
   margin-right: 0;
-  margin-left: 15em;
+  margin-left: 13em;
   text-align: right;
   /*  color: #375237; */
   color: white;
-  line-height: 1;
+  line-height: 0.9;
   font-size: 1.2rem; 
 }
 
