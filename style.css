@@ -60,14 +60,14 @@ main {
   box-shadow: 0 8px 18px rgba(43, 58, 46, 0.15);
 }
 
-/* Box orizzontale con foto a sinistra e testo a destra */
 .bio-box {
-  display: flex;
-  align-items: center;
-  max-width: 800px;     /* aumenta la larghezza massima */
-  margin: 2em auto;   
-  gap: 30px;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
 }
+
 
 .intro {
   display: flex;
