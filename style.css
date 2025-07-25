@@ -64,6 +64,8 @@ main {
 .bio-box {
   display: flex;
   align-items: center;
+  max-width: 1000px;     /* aumenta la larghezza massima */
+  margin: 2em auto;   
   gap: 30px;
 }
 
@@ -218,7 +220,7 @@ ul.contacts li img.icon {
   object-fit: contain;
 }
 .img {
-  width: 40px;
+  width: 60px;
   height: auto;
   vertical-align: middle;
   margin-right: 8px;
