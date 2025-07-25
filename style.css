@@ -193,6 +193,13 @@ p {
   margin-right: 8px;
   object-fit: contain;
 }
+.img {
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+  object-fit: contain;
+}
 
 .button {
   display: inline-block;
