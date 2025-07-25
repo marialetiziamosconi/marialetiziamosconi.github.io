@@ -52,7 +52,7 @@ nav a:focus {
 
 /* Contenitore principale per il box bianco con trasparenza */
 main {
-  max-width: 720px;
+  max-width: 1000px;
   margin: 40px auto;
   background: rgba(255, 255, 255, 0.2); /* bianco semi-trasparente */
   padding: 35px 30px;
@@ -64,7 +64,7 @@ main {
 .bio-box {
   display: flex;
   align-items: center;
-  max-width: 1300px;     /* aumenta la larghezza massima */
+  max-width: 1000px;     /* aumenta la larghezza massima */
   margin: 2em auto;   
   gap: 30px;
 }
@@ -210,7 +210,15 @@ ul.contacts li .icon {
 }
 
 .img {
-  width: 50px;
+  width: 60px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.imgbig {
+  width: 80px;
   height: auto;
   vertical-align: middle;
   margin-right: 8px;
