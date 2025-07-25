@@ -79,7 +79,7 @@ main {
 
 .intro-flex {
   display: flex;
-  align-items: center;       /* centra verticalmente testo e logo */
+  align-items: right;       /* centra verticalmente testo e logo */
   justify-content: space-between; /* distribuisce lo spazio */
   gap: 1em;                  /* distanza orizzontale tra testo e logo */
 }
