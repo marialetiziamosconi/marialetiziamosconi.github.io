@@ -165,3 +165,27 @@ p {
   margin-right: 8px;
   object-fit: contain;
 }
+
+.button {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #375237;
+  border: 2px solid #375237;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #375237;
+  color: #fff;
+}
+
+.button i {
+  margin-right: 6px; /* spazio tra icona e testo */
+  vertical-align: middle;
+}
