@@ -108,6 +108,7 @@ main {
   height: 6em; /* regola a seconda della proporzione */
   object-fit: contain;
    margin-left: 0em;
+  margin-right: 0em;
     align-items: right; 
 }
 
