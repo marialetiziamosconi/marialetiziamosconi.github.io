@@ -158,6 +158,34 @@ p {
   text-decoration: underline;
 }
 
+.members {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.members li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #375237;
+}
+
+.members i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #375237;
+}
+
+.members a {
+  text-decoration: none;
+  color: #375237;
+}
+
+.members a:hover {
+  text-decoration: underline;
+}
+
 .icon-img {
   width: 20px;
   height: 20px;
