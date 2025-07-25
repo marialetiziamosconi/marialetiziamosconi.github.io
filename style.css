@@ -12,8 +12,9 @@ body {
 
 header {
   position: relative;
+  max-heigth: 300px;
   color: white;
-  padding: 100px 20px 30px 20px;
+  padding: 80px 20px 30px 20px;
   text-align: center;
   background-image: url('banner.jpg');
   background-size: cover;
