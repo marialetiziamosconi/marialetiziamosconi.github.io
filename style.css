@@ -148,14 +148,9 @@ ul.contacts li {
 
 ul.contacts li .icon {
   width: 20px;        /* Fissa la larghezza per allineare tutto */
-  height: 20px;
+  height: auto;
   margin-right: 10px; /* Distanza tra icona e testo */
   display: inline-block;
-}
-
-/* Opzionale: imposta le immagini come le icone */
-ul.contacts li img.icon {
-  object-fit: contain;
 }
 
 .contacts {
@@ -214,13 +209,6 @@ ul.contacts li img.icon {
   text-decoration: underline;
 }
 
-.icon-img {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-  margin-right: 8px;
-  object-fit: contain;
-}
 .img {
   width: 50px;
   height: auto;
