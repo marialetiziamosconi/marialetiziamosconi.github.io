@@ -56,7 +56,7 @@ main {
   max-width: 800px;
   margin: 40px auto;
   background: rgba(255, 255, 255, 0.2); /* bianco semi-trasparente */
-  padding: 35px 30px;
+  padding: 30px 30px;
   border-radius: 18px;
   box-shadow: 0 8px 18px rgba(43, 58, 46, 0.15);
 }
