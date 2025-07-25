@@ -90,7 +90,7 @@ main {
 .logo-affiancato {
   height: 6em; /* regola a seconda della proporzione */
   object-fit: contain;
-   margin-left: 0.4em;
+   margin-left: 0em;
 }
 
 .bio-content {
