@@ -72,10 +72,11 @@ main {
 
 .intro {
   display: flex;
-  align-items: center;  /* Allinea verticalmente */
+  align-items: right;  /* Allinea verticalmente */
   justify-content: space-between;
   gap: 0em;
   margin-bottom:1em;
+  padding: 0 0 1em 2em; 
 }
 
 .intro-flex {
