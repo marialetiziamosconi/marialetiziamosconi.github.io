@@ -64,7 +64,7 @@ main {
 .bio-box {
   display: flex;
   align-items: center;
-  max-width: 1000px;     /* aumenta la larghezza massima */
+  max-width: 1300px;     /* aumenta la larghezza massima */
   margin: 2em auto;   
   gap: 30px;
 }
