@@ -62,7 +62,7 @@ main {
 }
 
 .bio-box {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0.5em auto;      /* meno spazio sopra e sotto */
   padding: 0.2em 2em 0.2em; 
   width: 100%;            /* consente l'adattamento */
