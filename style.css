@@ -65,7 +65,7 @@ main {
   max-width: 800px;
   margin: 0.5em auto;      /* meno spazio sopra e sotto */
   padding: 0.2em 2em 0.2em; 
-  
+  width: 100%;            /* consente l'adattamento */
   border-radius: 20px;
 }
 
@@ -82,7 +82,7 @@ main {
 .intro-flex {
   display: flex;
   align-items: right;       /* centra verticalmente testo e logo */
-  /* justify-content: space-between; /* distribuisce lo spazio */
+  justify-content: flex-end; /* distribuisce lo spazio */
   gap: 1em;                  /* distanza orizzontale tra testo e logo */
 }
 
