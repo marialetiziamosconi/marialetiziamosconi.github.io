@@ -6,102 +6,154 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/academicons.min.css">
   <script src="https://kit.fontawesome.com/50d40a2d00.js" crossorigin="anonymous"></script>
-</head>
-<script>
-function toggleBibtex(id) {
-  const box = document.getElementById("bibtex-" + id);
-  if (box.style.display === "none") {
-    box.style.display = "block";
-  } else {
-    box.style.display = "none";
+
+  <script>
+  function toggleBibtex(id) {
+    const box = document.getElementById("bibtex-" + id);
+    if (box.style.display === "none") {
+      box.style.display = "block";
+    } else {
+      box.style.display = "none";
+    }
   }
-}
-</script>
+  </script>
+</head>
+
 <body>
-  <header>
-    <h1>Publications</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="ricerca.html">Research</a>
-      <a href="pubblicazioni.html">Publications and Talks</a>
-      <a href="didattica.html">Teaching and Organizing Activities</a>
-      <a href="contatti.html">About me</a>
-    </nav>
-  </header>
- <main>
+
+<header>
+  <h1>Publications and Talks</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="ricerca.html">Research</a>
+    <a href="pubblicazioni.html">Publications and Talks</a>
+    <a href="didattica.html">Teaching and Organizing Activities</a>
+    <a href="contatti.html">About me</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= PUBLICATIONS ================= -->
   <h2>Publications:</h2>
-  <p style="text-align: center;">Preprints/submitted</p>
+
+  <p style="text-align:center;">Preprints/submitted</p>
+
   <ol class="pubblicazioni">
+
     <li>
       <span class="autori"><strong>M. Botti, L. Mascotto, M. Mosconi</strong></span><br>
-      <span class="titolo">A nonconforming method for a generalized Darcy-Forchheimer model (2025).</span><br>
-     <!-- <span class="links">
-      <a href="https://arxiv.org/abs/2502.12609" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv ai-1x"></i> preprint</a> -->
+      <span class="titolo">
+        A nonconforming method for a generalized Darcy-Forchheimer model (2025).
+      </span><br>
+
       <a href="https://arxiv.org/abs/2604.21558" class="button" target="_blank">
-      <i class="ai ai-arxiv"></i> preprint</a>
-      <a href="#" class="button" onclick="toggleBibtex('Forchheimer'); return false;"><i class="fa-solid fa-book"></i> bibtex</a>
- <!-- [<a href="link-paper-url" target="_blank" rel="noopener noreferrer">paper</a>] 
-        [<a href="link-bibtex-url" target="_blank" rel="noopener noreferrer">bibtex</a>] 
-      </span> -->
+        <i class="ai ai-arxiv"></i> preprint
+      </a>
+
+      <a href="#" class="button" onclick="toggleBibtex('forchheimer'); return false;">
+        <i class="fa-solid fa-book"></i> bibtex
+      </a>
+
+      <div id="bibtex-forchheimer" style="display:none; margin-top:10px;">
+        <pre style="background:#f4f4f4; padding:15px; border-radius:8px; overflow-x:auto;">
+@misc{Botti-Mascotto-Mosconi:2026,
+author = {Botti, M. and Mascotto, L. and Mosconi, M.},
+title = {A nonconforming method for a generalized Darcy–Forchheimer model},
+journal={ArXiv},
+year={2026},
+howpublished={http://arxiv.org/abs/2604.21558}
+}
+        </pre>
+      </div>
     </li>
-    <div id="bibtex-Forchheimer" style="display:none; margin-top:10px;">
-    <pre style="background:#f4f4f4; padding:15px; border-radius:8px; overflow-x:auto;">
-    @misc{Botti-Mascotto-Mosconi:2026,
-    author = {Botti, M. and Mascotto, L. and Mosconi, M.},
-    title = {A nonconforming method for a generalized Darcy–Forchheimer model},
-    journal={ArXiv},
-    year={2026},
-    howpublished={\url{http://arxiv.org/abs/2604.21558}}
-    }
-    </pre>
-    </div>
-    
-    <p style="text-align: center;">Published articles</p>
+
+  </ol>
+
+  <p style="text-align:center;">Published articles</p>
+
+  <ol class="pubblicazioni">
+
     <li>
       <span class="autori"><strong>A. Bressan, L. Mascotto, M. Mosconi</strong></span><br>
-      <span class="titolo">Available online in IMA Journal of Numerical Analysis (2025).</span><br>
-      <a href="https://arxiv.org/abs/2502.12609" class="button" target="_blank"><i class="ai ai-arxiv"></i> preprint</a>
-      <a href="https://academic.oup.com/imajna/advance-article/doi/10.1093/imanum/draf091/8319964?login=false" class="button" target="_blank"><i class="fa-regular fa-file-lines"></i>paper</a>
-      <a href="#" class="button" onclick="toggleBibtex('newCR'); return false;"><i class="fa-solid fa-book"></i> bibtex</a>
-    </li> 
+      <span class="titolo">
+        Available online in IMA Journal of Numerical Analysis (2025).
+      </span><br>
+
+      <a href="https://arxiv.org/abs/2502.12609" class="button" target="_blank">
+        <i class="ai ai-arxiv"></i> preprint
+      </a>
+
+      <a href="https://academic.oup.com/imajna/advance-article/doi/10.1093/imanum/draf091/8319964?login=false"
+         class="button" target="_blank">
+        <i class="fa-regular fa-file-lines"></i> paper
+      </a>
+
+      <a href="#" class="button" onclick="toggleBibtex('newCR'); return false;">
+        <i class="fa-solid fa-book"></i> bibtex
+      </a>
+
       <div id="bibtex-newCR" style="display:none; margin-top:10px;">
-    <pre style="background:#f4f4f4; padding:15px; border-radius:8px; overflow-x:auto;">
-    @article{Bressan-Mascotto-Mosconi:2025,
-    author = {Bressan, A. and Mascotto, L. and Mosconi, M.},
-    title = {New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and applications to the Stokes' equations},
-    journal={IMA J. Numer. Anal},
-    year={2025},
-    howpublished={https://doi.org/10.1093/imanum/draf091}
-    }
+        <pre style="background:#f4f4f4; padding:15px; border-radius:8px; overflow-x:auto;">
+@article{Bressan-Mascotto-Mosconi:2025,
+author = {Bressan, A. and Mascotto, L. and Mosconi, M.},
+title = {New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and applications to the Stokes' equations},
+journal={IMA J. Numer. Anal},
+year={2025},
+howpublished={https://doi.org/10.1093/imanum/draf091}
+}
+        </pre>
+      </div>
+    </li>
+
   </ol>
-    </pre>
-    </div>
-    <ul class="talks">
-    <h2>Talks:</h2>
-      <li>
-    <span class="titolo">New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and application to the Stokes' equations</span>,
+
+  <!-- ================= TALKS ================= -->
+  <h2>Talks:</h2>
+
+  <ol class="talks">
+
+    <li>
+      <span class="titolo">
+        New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and application to the Stokes' equations
+      </span>,
       Workshop,
       <a href="https://www.chemnitz-am.de/cfem2025/">Chemnitz Finite Element Symposium 2025</a>,
-      15-17 September 2025,
-      Mülheim an der Ruhr, Germany</li>
-   <li>
-     <span class="titolo">New Crouzeix-Raviart elements of even and variable degree</span>,
-     Communication,
-     <a href="https://numericalanalysisconference.org.uk/">30th Biennial Numerical Analysis Conference</a>,
-     24-27 June 2025, Glasgow, UK</li>
-    <li>
-      <span class="titolo">Crouzeix--Raviart elements: state-of-the-art, new elements of even degree, and applications</span>,
-        Seminar talk,
-        <a href="https://www.ins.uni-bonn.de/group/gedicke/page/seminar">Research Seminar: Mathematics of Computation</a>,
-        21 May 2025, Institute for Numerical Simulations, Bonn, Germany
+      15-17 September 2025, Mülheim an der Ruhr, Germany
     </li>
+
     <li>
-      <span class="titolo">Least-squares finite elements for parabolic problems,</span>
-        Workshop,
-        <a href="https://www.mate.polimi.it/events/LYNUMVI/">LYNUM VI</a>,
-        14 June 2024, Milan, Italy
+      <span class="titolo">
+        New Crouzeix-Raviart elements of even and variable degree
+      </span>,
+      Communication,
+      <a href="https://numericalanalysisconference.org.uk/">30th Biennial Numerical Analysis Conference</a>,
+      24-27 June 2025, Glasgow, UK
     </li>
-    </ul>
+
+    <li>
+      <span class="titolo">
+        Crouzeix--Raviart elements: state-of-the-art, new elements of even degree, and applications
+      </span>,
+      Seminar talk,
+      <a href="https://www.ins.uni-bonn.de/group/gedicke/page/seminar">
+        Research Seminar: Mathematics of Computation
+      </a>,
+      21 May 2025, Bonn, Germany
+    </li>
+
+    <li>
+      <span class="titolo">
+        Least-squares finite elements for parabolic problems
+      </span>,
+      Workshop,
+      <a href="https://www.mate.polimi.it/events/LYNUMVI/">LYNUM VI</a>,
+      14 June 2024, Milan, Italy
+    </li>
+
+  </ol>
+
 </main>
+
 </body>
 </html>
