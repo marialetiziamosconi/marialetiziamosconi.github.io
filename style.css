@@ -29,8 +29,10 @@ margin-top: 5px;
 }
 
 a {
-  color: #375237; 
+  color: #dbe9d8;
+  margin: 0 14px;
   text-decoration: none;
+  transition: border-color 0.3s ease;
 }
 
 nav {
