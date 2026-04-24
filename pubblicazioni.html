@@ -7,6 +7,16 @@
   <link rel="stylesheet" href="css/academicons.min.css">
   <script src="https://kit.fontawesome.com/50d40a2d00.js" crossorigin="anonymous"></script>
 </head>
+<script>
+function toggleBibtex(id) {
+  const box = document.getElementById("bibtex-" + id);
+  if (box.style.display === "none") {
+    box.style.display = "block";
+  } else {
+    box.style.display = "none";
+  }
+}
+</script>
 <body>
   <header>
     <h1>Publications</h1>
@@ -23,27 +33,52 @@
   <p>Preprints/submitted</p>
   <ol class="pubblicazioni">
     <li>
-      <span class="autori"><strong>A. Bressan, L. Mascotto, M. Mosconi</strong></span><br>
-      <span class="titolo">New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and applications to the Stokes' equations (2025).</span><br>
+      <span class="autori"><strong>M. Botti, L. Mascotto, M. Mosconi</strong></span><br>
+      <span class="titolo">A nonconforming method for a generalized Darcy-Forchheimer model (2025).</span><br>
      <!-- <span class="links">
       <a href="https://arxiv.org/abs/2502.12609" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv ai-1x"></i> preprint</a> -->
-      <a href="https://arxiv.org/abs/2502.12609" class="button" target="_blank">
+      <a href="https://arxiv.org/abs/2604.21558" class="button" target="_blank">
       <i class="ai ai-arxiv"></i> preprint</a>
+      <a href="#" class="button" onclick="toggleBibtex('Forchheimer'); return false;"><i class="fa-solid fa-book"></i> bibtex</a>
  <!-- [<a href="link-paper-url" target="_blank" rel="noopener noreferrer">paper</a>] 
         [<a href="link-bibtex-url" target="_blank" rel="noopener noreferrer">bibtex</a>] 
       </span> -->
     </li>
+    <div id="bibtex-Forchheimer" style="display:none; margin-top:10px;">
+    <pre style="background:#f4f4f4; padding:15px; border-radius:8px; overflow-x:auto;">
+    @misc{Botti-Mascotto-Mosconi:2026,
+    author = {Botti, M. and Mascotto, L. and Mosconi, M.},
+    title = {A nonconforming method for a generalized Darcy–Forchheimer model},
+    journal={ArXiv},
+    year={2026},
+    howpublished={\url{http://arxiv.org/abs/2604.21558}}
+    }
+    </pre>
+    </div>
+    
     <p>Published articles</p>
     <li>
-      <span class="autori"><strong>authors</strong></span><br>
-      <span class="titolo">title (year).</span><br>
+      <span class="autori"><strong>A. Bressan, L. Mascotto, M. Mosconi</strong></span><br>
+      <span class="titolo">Available online in IMA Journal of Numerical Analysis (2025).</span><br>
       <a href="https://arxiv.org/abs/2502.12609" class="button" target="_blank"><i class="ai ai-arxiv"></i> preprint</a>
-      <a href="link-paper-url" class="button" target="_blank"><i class="fa-regular fa-file-lines"></i>paper</a>
-      <a href="link-bibtex-url" class="button" target="_blank"><i class="fa-solid fa-book"></i>bibtex</a>
+      <a href="https://academic.oup.com/imajna/advance-article/doi/10.1093/imanum/draf091/8319964?login=false" class="button" target="_blank"><i class="fa-regular fa-file-lines"></i>paper</a>
+      <a href="#" class="button" onclick="toggleBibtex('newCR'); return false;"><i class="fa-solid fa-book"></i> bibtex</a>
     </li> 
   </ol>
   <ul class="talks">
     <li>
+    </li>
+    <div id="bibtex-newCR" style="display:none; margin-top:10px;">
+    <pre style="background:#f4f4f4; padding:15px; border-radius:8px; overflow-x:auto;">
+    @article{Bressan-Mascotto-Mosconi:2025,
+    author = {Bressan, A. and Mascotto, L. and Mosconi, M.},
+    title = {New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and applications to the Stokes' equations},
+    journal={IMA J. Numer. Anal},
+    year={2025},
+    howpublished={https://doi.org/10.1093/imanum/draf091}
+    }
+    </pre>
+    </div>
     <span class="titolo">New Crouzeix-Raviart elements of even degree: theoretical aspects, numerical performance, and application to the Stokes' equations</span>,
       Workshop,
       <a href="https://www.chemnitz-am.de/cfem2025/">Chemnitz Finite Element Symposium 2025</a>,
