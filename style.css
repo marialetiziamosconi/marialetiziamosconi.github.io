@@ -28,6 +28,11 @@ header h1 {
 margin-top: 5px;       
 }
 
+a {
+  color: #375237; 
+  text-decoration: none;
+}
+
 nav {
   position: relative;
   z-index: 2;
@@ -35,7 +40,7 @@ nav {
 }
 
 nav a {
-  color: #375237;
+  color: #dbe9d8;
   margin: 0 14px;
   text-decoration: none;
   font-weight: 600;
